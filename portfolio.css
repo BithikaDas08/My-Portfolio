@@ -429,10 +429,12 @@ section {
     }
 }
 @media (max-width: 768px) {
-  .skills-container {
-    grid-template-columns: 1fr; /* stack on mobile */
-    text-align: center;
-  }
+  .technical-skills {
+    margin-left: 20px; /* or try 10px */
+    align-items: flex-start; /* aligns content to the left if using flexbox */
+    text-align: left;        /* aligns text to the left */
+  }
+}
 
   .technical-skills {
     order: 1;
