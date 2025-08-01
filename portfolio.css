@@ -428,6 +428,17 @@ section {
         padding-left: 120px;
     }
 }
+@media (max-width: 768px) {
+  .skills-container {
+    grid-template-columns: 1fr; /* stack on mobile */
+    text-align: center;
+  }
+
+  .technical-skills {
+    order: 1;
+    text-align: center;
+  }
+}
 
 html {
     scroll-behavior: smooth;
