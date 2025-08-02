@@ -159,9 +159,10 @@ body {
     padding-bottom: 10%;
     max-width: 630px;
     height: auto;
-    width: 60%;
-    border-radius: 10px;
+    width: 300px;
+    border-radius: 50%;
    margin-left: 70px;
+    object-fit:cover;
 }
 
 .about-text h2 {
@@ -482,9 +483,13 @@ section {
     display:flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding:20px;
+    flex-wrap:wrap;
+    padding: 40px 20px;
 }
-
+.radial-bars,
+.technical-bars {
+    width:45%;
+}
 
 
 
