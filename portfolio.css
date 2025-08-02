@@ -187,6 +187,30 @@ body {
     margin-bottom: 4rem;
 }
 
+
+@media (max-width: 768px) {
+  .about {
+    display: block;
+    text-align: center;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #services {
     color: aliceblue;
     font-size: 20px;
@@ -497,6 +521,22 @@ html {
   stroke-dashoffset: 314;
   stroke-linecap: round;
 }
+
+.radial-bar a {
+    display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .path-1 { animation: animate-path1 1s linear forwards; }
 .path-2 { animation: animate-path2 1s linear forwards; }
